@@ -1,0 +1,42 @@
+import time
+# Use the if statement; Use the else statement; Use the elif statement
+# Use the input() function to get information from the user
+print("You are sitting at your computer, working on spreadsheets.")
+
+time.sleep(5)
+print("All of a sudden, you see a mysterious terminal pop up and ask a question.")
+
+time.sleep(3)
+
+userReply = input("Do you enjoy speaking to computers? (type yes or no) ")
+if userReply .casefold() == "yes":
+    print("Well now, that's pretty sad...You need to spice up your life a bit.")
+
+elif userReply .casefold() == "no":
+    print("Get with the Program, old timer! We're living in the computer age 11111100100." )
+
+    time.sleep(3)
+    print("Listen old timer, here's what you can do...")
+
+time.sleep(3)
+print("You have a few options.")
+
+time.sleep(3)
+print("A. Since you're living in the past, why not jump in a time machine to go back home? ")
+
+time.sleep(3)
+print("B. You can choose to go back to sleep." )
+
+time.sleep(3)
+print("C. Boogie!!!!!!")
+
+time.sleep(2)
+userReply = input("The choice is yours, old man." )
+
+if userReply .casefold() == "a":
+    print("Go back to BEDROCK, FRED FLINTSTONE!!!! YABBA-DABBA-DOO!!!!!")
+elif userReply .casefold() == "b":
+    print("Good idea, Rip Van Winkle")
+elif userReply .casefold() == "c":
+    print("You let a COMPUTER tell you what to do... What a loser!!!!")
+
